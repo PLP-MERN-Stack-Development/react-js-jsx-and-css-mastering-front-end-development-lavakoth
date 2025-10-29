@@ -2,13 +2,14 @@ import { useState } from 'react';
 import './App.css';
 
 // Import your components here
-// import Button from './components/Button';
-// import Navbar from './components/Navbar';
-// import Footer from './components/Footer';
-// import TaskManager from './components/TaskManager';
+import Button from './components/ui/button';
+import Navbar from './components/ui/navigation-menu';
+import Footer from './components/ui/Footer';
+import TaskManager from './components/TaskManager';
 
 function App() {
   const [count, setCount] = useState(0);
+  
 
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
